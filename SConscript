@@ -16,7 +16,7 @@ macros = ['CPU_MK64FN1M0VMD12', 'TARGET_K64F', 'TOOLCHAIN_ARM', 'DTOOLCHAIN_ARM_
 # TODO: need to handle different build types (releae/debug), so '-Os' needs to move
 # somewhere else (maybe we need different environments? Check how scons handles release/debug builds)
 c_flags = '--cpu=Cortex-M4.fp --split_sections --apcs=interwork --restrict --multibyte_chars -D__thumb2__ --gnu --no_rtti '
-cxx_flags = c_flags + ' --no_exceptions --cpp'
+cxx_flags = '--no_exceptions --cpp'
 
 ################################################################################
 # Linker flags
