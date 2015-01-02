@@ -15,7 +15,6 @@
     "armcc",
     "*"
   ],
-  "toolchain": "CMake/toolchain.cmake",
   "debug-server": [
     "JLinkGDBServer",
     "-if",
