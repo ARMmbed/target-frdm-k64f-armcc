@@ -73,4 +73,4 @@ env.Append(BUILDERS = {"Bin": post_link})
 # We export this so we can add an explicit dependency of the executable on the link script,
 # so the executable gets automatically re-linked if the linker command script is changed
 # (this needs to happen in the main SConstruct, since the executable target is not yet defined)
-Export('env link_script')
+Export('env link_script macros')
