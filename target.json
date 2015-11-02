@@ -2,7 +2,7 @@
   "name": "frdm-k64f-armcc",
   "version": "1.0.0",
   "inherits": {
-    "mbed-kinetis-k64-armcc": "^1.0.0"
+    "kinetis-k64-armcc": "^1.0.0"
   },
   "description": "Official mbed build target for the mbed frdm-k64f development board, using the armcc toolchain.",
   "licenses": [
