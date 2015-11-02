@@ -6,7 +6,7 @@ development
 board](http://www.mbed.com/en/development/hardware/boards/freescale/frdm_k64f/)
 using the ARMCC v5 compiler.
 
-![k64f image](https://mbed-media.s3.amazonaws.com/k64f_image_v1.JPG.250x250_q85.jpg)
+<img src="https://mbed-media.s3.amazonaws.com/frdm-k64f.jpg" width="400">
 
 This target description derives from the generic
 [mbed-armcc](https://github.com/ARMmbed/target-mbed-armcc) target description,
