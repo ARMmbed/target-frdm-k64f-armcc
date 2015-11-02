@@ -1,6 +1,6 @@
 {
   "name": "frdm-k64f-armcc",
-  "version": "0.1.5",
+  "version": "1.0.0",
   "inherits": {
     "mbed-kinetis-k64-armcc": "^1.0.0"
   },
