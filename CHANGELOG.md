@@ -1,4 +1,4 @@
-## 1.0.0
+# 1.0.0
  * derive from new
    [kinetis-k64-armcc](https://github.com/ARMmbed/target-kinetis-k64-armcc) target
    description: most of the toolchain description now lives there, with this
