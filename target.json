@@ -1,6 +1,9 @@
 {
   "name": "frdm-k64f-armcc",
   "version": "0.1.5",
+  "inherits": {
+    "mbed-kinetis-k64-armcc": "^1.0.0"
+  },
   "description": "Official mbed build target for the mbed frdm-k64f development board, using the armcc toolchain.",
   "licenses": [
     {
@@ -8,9 +11,6 @@
       "type": "Apache-2.0"
     }
   ],
-  "inherits": {
-    "mbed-armcc": "~0.1.0"
-  },
   "keywords": [
     "mbed-target:k64f",
     "mbed-official",
@@ -25,14 +25,6 @@
         "stacks": {
           "lwip": true
         }
-      }
-    },
-    "cmsis": {
-      "nvic": {
-        "ram_vector_address": "0x1FFF0000",
-        "flash_vector_address": "0x0",
-        "user_irq_offset": 16,
-        "user_irq_number": 86
       }
     },
     "hardware": {
@@ -94,14 +86,6 @@
   },
   "similarTo": [
     "frdm-k64f",
-    "k64f",
-    "ksdk-mcu",
-    "mk64fn1m0vmd12",
-    "mk64fn1m0",
-    "mk64fn",
-    "freescale",
-    "cortex-m4",
-    "armv7-m",
     "lwip",
     "lwip-k64f",
     "eth-k64f"
