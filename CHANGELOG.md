@@ -1,6 +1,6 @@
 ## 1.0.0
  * derive from new
-   [kinetis-k64-gcc](https://github.com/ARMmbed/target-kinetis-k64-armcc) target
+   [kinetis-k64-armcc](https://github.com/ARMmbed/target-kinetis-k64-armcc) target
    description: most of the toolchain description now lives there, with this
    target description defining only the pinout and other board-specific
    definitions.
