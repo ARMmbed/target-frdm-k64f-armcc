@@ -1,3 +1,6 @@
+# 2.0.0
+ * Compile C++ code as C++11 (update version of base kinetis-k64-armcc target)
+
 # 1.0.0
  * derive from new
    [kinetis-k64-armcc](https://github.com/ARMmbed/target-kinetis-k64-armcc) target
